@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="chenge text">Click me to chenge the text</p>
+  
+    <script>
+          const chengetaxt = Document.querySelector('#chenge-text');
+          chengetaxt,addEventLitener("click",function(){
+          chengetaxt.textConntent= "text has been chenged";
+          )}
+        </script>
+<button id ="myButton" onclick="changeLabel()">click me</button>
+<script>
+          function changeLabel(){
+          var button = document.getElementById("myButton");
+          button.innerHTML= "chenge click";
+          }
+    </script>
+ 
+</body>
+</html>
