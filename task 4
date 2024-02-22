@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #myDiv{
+        width:100%;
+        padding:50px 0;
+        text-align:center;
+        background-color: lightblue;
+        margin-top:20px;
+    }
+</style>
+</head>
+<body>
+    <button onclick="myFunction()">poxel</button>
+    <div id ="myDiv"> Barev </div>
+     
+    <script>
+       function myFunction(){
+        let x = document.getElementById("myDiv");
+        if (x.innerHTML === "Barev"){
+            x.innerHTML="Paka";
+        }else{
+            x.innerHTML='Barev'
+        }
+       }
+    </script>
+ 
+</body>
+</html>
