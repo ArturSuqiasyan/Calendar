@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" name=" " id ="input">
+    <input type="button" id="submit-button" value="kardal " onclick="insert_result()">
+    <div id="result_table">
+        <table>
+            <tr>
+                <th>imige</th>
+            </tr>
+            <tr id="results">
+
+            </tr>
+        </table> 
+    </div>
+    <script>
+const inputField = document.getElementById("input");
+const result_row =document.getElementById("results");
+function insert_result(){
+    let input =inputField.value;
+    let new_row=document.createElement("td");
+    new_row.append(input);
+    result_row.appendChild(new_row);
+}
+    
+    </script>
+ 
+</body>
+</html>
