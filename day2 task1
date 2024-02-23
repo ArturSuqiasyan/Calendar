@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #myDiv{
+        width:100%;
+        padding:50px 0;
+        text-align:center;
+        background-color: red;
+        margin-top:20px;
+    }
+</style>
+</head>
+<body>
+    
+    <input type="button" style= "background-color:black" hover="background-color:#3e8e41" value="    " name="B1" onclick="black()"/>
+    <input type="button" style= "background-color:blue" value="    " name="B2" onclick="blue()"/>
+    <input type="button" style= "background-color:green" value="    " name="B3" onclick="green()"/>
+    <script>
+        function black(){
+            document.body.style.backgroundColor="black"
+        }
+        function blue(){
+            document.body.style.backgroundColor="blue"
+        }
+        function green(){
+            document.body.style.backgroundColor="green"
+        }
+    </script>
+ 
+</body>
+</html>
