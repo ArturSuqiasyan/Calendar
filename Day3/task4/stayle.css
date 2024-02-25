@@ -1,0 +1,19 @@
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #prevBtn,
+  #nextBtn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #sliderImg {
+    max-width: 400px;
+    max-height: 300px;
+  }
+  
