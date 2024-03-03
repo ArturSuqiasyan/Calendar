@@ -1,0 +1,6 @@
+.comment {
+    margin-left: 20px; /* Adjust indentation */
+    border-left: 2px solid #ccc; /* Indentation line */
+    padding: 5px;
+    margin-bottom: 10px;
+  }
