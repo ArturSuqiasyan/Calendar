@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link style="stylsheet" href="style.css">
+</head>
+<body>
+    <div id="field"-controls>
+        <select id="field-type">
+            <option value="text">Text</option>
+            <option value="email">Email</option>
+            <option value="password">password</option>
+            <option value="dropdown">Dropdown</option>
+            <option value="checkbox">Checkbox</option>
+            <option value="radio">Radio</option>
+        </select>
+        <button onclick="addField()">Add Field</button>
+        <button onclick="exportConfig()">Export</button>
+        <input type="file" id="inport-file" accept=".json" onchange="importConfig(event)">
+    </div>
+    <div id="work-area"></div>
+</body>
+</html>
